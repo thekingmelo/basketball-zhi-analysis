@@ -113,6 +113,11 @@ pre{margin:0;white-space:pre-wrap;word-break:break-word;font-size:11px;line-heig
 </style>
 </head>
 <body>
+<div style="text-align:center;padding:10px;background:#333;color:#fff;cursor:pointer;position:fixed;top:0;left:0;right:0;z-index:99999" 
+     onclick="alert('CLICK WORKS!');event.stopPropagation()">
+  🔴 测试点击 — 点我弹窗
+</div>
+
 <div class="wrap">
   <div class="pageHint">这是基于昨天「篮球智析App-Demo-最终推荐版」继续迭代的母版融合页：保留原有最终推荐版首页、实时比分、每节数据、市场热度、数据中心、三种思路和会员复盘结构；已按每日实时逻辑更新：今天没有比赛时，首页第一主板块展示明天「雷霆 @ 马刺 G6」；G6详情分为非会员版和会员版，会员版承载完整G6 PPT级内容。</div>
   <div class="shell" id="appShell">
